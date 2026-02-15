@@ -1,0 +1,104 @@
+name: GDPR
+version: "2016/679"
+description: General Data Protection Regulation - EU data protection and privacy regulation
+
+controls:
+  - id: GDPR-5.1
+    title: Lawfulness, fairness, and transparency
+    description: Personal data shall be processed lawfully, fairly, and in a transparent manner
+    category: Data Processing Principles
+
+  - id: GDPR-5.2
+    title: Purpose limitation
+    description: Personal data shall be collected for specified, explicit, and legitimate purposes
+    category: Data Processing Principles
+
+  - id: GDPR-5.3
+    title: Data minimization
+    description: Personal data shall be adequate, relevant, and limited to what is necessary
+    category: Data Processing Principles
+
+  - id: GDPR-5.4
+    title: Accuracy
+    description: Personal data shall be accurate and kept up to date
+    category: Data Processing Principles
+
+  - id: GDPR-5.5
+    title: Storage limitation
+    description: Personal data shall be kept for no longer than necessary
+    category: Data Processing Principles
+
+  - id: GDPR-5.6
+    title: Integrity and confidentiality
+    description: Personal data shall be processed with appropriate security measures
+    category: Data Processing Principles
+
+  - id: GDPR-6
+    title: Lawful basis for processing
+    description: Processing must have a valid legal basis (consent, contract, legal obligation, etc.)
+    category: Lawful Basis
+
+  - id: GDPR-7
+    title: Conditions for consent
+    description: Consent must be freely given, specific, informed, and unambiguous
+    category: Consent
+
+  - id: GDPR-13
+    title: Information to data subjects (direct collection)
+    description: Provide identity, purpose, legal basis, recipients, retention, and rights information
+    category: Transparency
+
+  - id: GDPR-15
+    title: Right of access
+    description: Data subjects have the right to obtain confirmation and access to their personal data
+    category: Data Subject Rights
+
+  - id: GDPR-16
+    title: Right to rectification
+    description: Data subjects have the right to have inaccurate personal data corrected
+    category: Data Subject Rights
+
+  - id: GDPR-17
+    title: Right to erasure
+    description: Data subjects have the right to have their personal data erased (right to be forgotten)
+    category: Data Subject Rights
+
+  - id: GDPR-20
+    title: Right to data portability
+    description: Data subjects have the right to receive their data in a structured, machine-readable format
+    category: Data Subject Rights
+
+  - id: GDPR-25
+    title: Data protection by design and default
+    description: Implement appropriate technical and organizational measures for data protection
+    category: Security
+
+  - id: GDPR-30
+    title: Records of processing activities
+    description: Maintain records of all processing activities under your responsibility
+    category: Accountability
+
+  - id: GDPR-32
+    title: Security of processing
+    description: Implement appropriate technical and organizational security measures
+    category: Security
+
+  - id: GDPR-33
+    title: Notification of personal data breach
+    description: Notify supervisory authority within 72 hours of becoming aware of a breach
+    category: Breach Notification
+
+  - id: GDPR-35
+    title: Data protection impact assessment
+    description: Carry out DPIA for high-risk processing operations
+    category: Risk Assessment
+
+  - id: GDPR-37
+    title: Designation of data protection officer
+    description: Designate a DPO where required by the regulation
+    category: Accountability
+
+  - id: GDPR-44
+    title: General principle for international transfers
+    description: Transfers to third countries must ensure adequate level of protection
+    category: International Transfers

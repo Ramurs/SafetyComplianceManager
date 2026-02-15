@@ -1,0 +1,104 @@
+name: SOC 2
+version: "2017"
+description: Service Organization Controls 2 - Trust Services Criteria
+
+controls:
+  - id: SOC2-CC1.1
+    title: COSO principle 1 - Integrity and ethical values
+    description: The entity demonstrates a commitment to integrity and ethical values
+    category: Control Environment
+
+  - id: SOC2-CC1.2
+    title: Board independence and oversight
+    description: The board demonstrates independence from management and exercises oversight
+    category: Control Environment
+
+  - id: SOC2-CC1.3
+    title: Management structure and authority
+    description: Management establishes structures, reporting lines, and appropriate authorities
+    category: Control Environment
+
+  - id: SOC2-CC1.4
+    title: Competence commitment
+    description: The entity demonstrates commitment to attract, develop, and retain competent individuals
+    category: Control Environment
+
+  - id: SOC2-CC2.1
+    title: Information quality for internal control
+    description: The entity obtains or generates relevant, quality information to support internal control
+    category: Communication and Information
+
+  - id: SOC2-CC3.1
+    title: Objective specification for risk assessment
+    description: The entity specifies objectives with sufficient clarity for risk identification
+    category: Risk Assessment
+
+  - id: SOC2-CC3.2
+    title: Risk identification and analysis
+    description: The entity identifies risks to the achievement of its objectives and analyzes risks
+    category: Risk Assessment
+
+  - id: SOC2-CC3.3
+    title: Fraud risk consideration
+    description: The entity considers the potential for fraud in assessing risks
+    category: Risk Assessment
+
+  - id: SOC2-CC4.1
+    title: Monitoring of internal control
+    description: The entity selects, develops, and performs evaluations of internal control components
+    category: Monitoring Activities
+
+  - id: SOC2-CC5.1
+    title: Control activity selection and development
+    description: The entity selects and develops control activities that mitigate risks
+    category: Control Activities
+
+  - id: SOC2-CC5.2
+    title: Technology general controls
+    description: The entity selects and develops general control activities over technology
+    category: Control Activities
+
+  - id: SOC2-CC6.1
+    title: Logical and physical access controls
+    description: The entity implements logical and physical access security controls
+    category: Logical and Physical Access
+
+  - id: SOC2-CC6.2
+    title: User access provisioning
+    description: Prior to issuing system credentials, the entity registers and authorizes new users
+    category: Logical and Physical Access
+
+  - id: SOC2-CC6.3
+    title: Role-based access and least privilege
+    description: The entity authorizes access based on authorization of the system role
+    category: Logical and Physical Access
+
+  - id: SOC2-CC6.6
+    title: External threat protection
+    description: The entity implements controls to prevent or detect and act upon unauthorized access
+    category: Logical and Physical Access
+
+  - id: SOC2-CC7.1
+    title: Infrastructure and software monitoring
+    description: The entity uses detection and monitoring procedures to identify changes to configurations
+    category: System Operations
+
+  - id: SOC2-CC7.2
+    title: Anomaly monitoring in operations
+    description: The entity monitors system components for anomalies indicative of security events
+    category: System Operations
+
+  - id: SOC2-CC7.3
+    title: Security event evaluation
+    description: The entity evaluates security events to determine whether they could impact the system
+    category: System Operations
+
+  - id: SOC2-CC8.1
+    title: Change management process
+    description: The entity authorizes, designs, develops, configures, documents, tests, and approves changes
+    category: Change Management
+
+  - id: SOC2-CC9.1
+    title: Risk mitigation activities
+    description: The entity identifies, selects, and develops risk mitigation activities
+    category: Risk Mitigation
